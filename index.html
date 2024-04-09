@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>color Flipper</title>
+  
+</head>
+<body>
+  <nav>
+    <ul class="title">Color Flipper</ul>
+    <div class="edits">
+      <ul class="b" id="simple" onclick="select=1">simple</ul>
+      <ul class="b" id="Hex" onclick="select=2">Hex</ul>
+      <ul class="b" id="rgb" onclick="select=3">RGB</ul>
+    </div>
+  </nav>
+  <main id="change">
+    <div class="static">
+      <div class="text">
+        <ul>Background color :</ul> 
+        <ul id="color">#f1f5f8</ul>
+      </div>
+      <div class="hold" id="button" onclick="randomColor()">CLICK ME</div>
+    </div>
+  </main>
+</body>
+<script src="javascript.js"></script>
+</html>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap')
+</style>
